@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head><meta name="viewport"content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link href="https://fonts.googleapis.com/css?family=Raleway%3A300" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Permanent+Marker|Sa­tisfy|Shrikhand|Lobs­ter" rel="stylesheet">
-<title>Page </title>
+<title>top10ranked.in</title>
 <style>
   
   
   
   
   body{
-background: linear-gradient(to right,white, white);
+background-color:white;
 }
-
-
 p {
 font-family:Raleway;
 clear:both;
 margin-bottom:-5px;
-
 }
 .new1{
 border-style:solid;
@@ -26,26 +24,19 @@ border-color:pink;
 color:red;
 width:41%;
 float:left;
-
 }
-
 .new2{
 border-color:black;
 border-style:solid;
 width:57%;
 float:right;
-
-
-
 }
-
 .new3{
 border-color:pink;
 border-style:solid;
 width:100%;
 float:left;
 }
-
 .numbering{
 font-weight:lighter;
 font-size:50px;
@@ -58,26 +49,13 @@ height:120px;
 float:right;
 margin-top:-50px;
 border:1px solid black;
-
-
-
 }
-
-
 .list{
 float:left;
 margin-top:-70px;
 margin-left:0px;
 font-size:25px;
-
-
-
 }
-
-
-
-
-
   
   
   
@@ -85,13 +63,23 @@ font-size:25px;
   img{
     width:60%;
   }
-
-
-
 </style>
 <div class="bg"> <img align="left" src="https://top10ranked.in/img/PicsArt_06-26-10.24.28.jpg"
 alt="main_icon">
-<div>
+
+<div class="w3-sidebar w3-bar-block w3-card w3-animate-right" style="display:none;right:0;" id="rightMenu">
+  <button onclick="closeRightMenu()" class="w3-bar-item w3-button w3-large">Close &times;</button>
+  <a href="#" class="w3-bar-item w3-button">Link 1</a>
+  <a href="#" class="w3-bar-item w3-button">Link 2</a>
+  <a href="#" class="w3-bar-item w3-button">Link 3</a>
+</div>
+
+<div class="w3-white">
+  <button class="w3-button w3-white w3-xlarge w3-right" onclick="openRightMenu()">&#9776;</button>
+  <div class="w3-container">
+  </div>
+</div>
+
 
 
 
@@ -193,6 +181,14 @@ src="https://raw.githubusercontent.com/Creptaw/top10ranked.in/master/Images/evil
 src="https://raw.githubusercontent.com/Creptaw/top10ranked.in/master/Images/httpretro-television-3681054_640.jpg.png.jpg">
 <p class="list" align="left">Top 10 Best</br> TV Shows</p>
 <hr class="new3">
+<script>
+function openRightMenu() {
+  document.getElementById("rightMenu").style.display = "block";
+}
+function closeRightMenu() {
+  document.getElementById("rightMenu").style.display = "none";
+}
+</script>
 
 
 </body>
