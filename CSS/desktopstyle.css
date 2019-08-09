@@ -38,4 +38,199 @@
     
     
     .material-icons{vertical-align: middle;}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    body{background-color:white;}
+.container{
+    margin-top:15px;
+    margin-bottom:50px;
+    background-color:white;
+    color:white;
+}
+
+
+
+.pp{
+    margin-top:50px;
+    font-family:poppins;
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+.best{border-radius:35px;
+background-color:white;
+color:white;}
+
+
+p{font-family:Raleway;clear:both;
+margin-top:0px;
+margin-bottom:10px;}.new1{border-style:solid;border-color:pink;color:red;width:41%;float:left;}
+
+
+.head{margin-bottom:-20px;
+margin-top:20px;}
+
+
+.new2{border-color:black;border-style:solid;width:57%;float:right;}.new3{border-color:pink;border-style:solid;width:100%;float:left;}.numbering{font-weight:lighter;font-size:50px;margin-left:0%;margin-top:70px;}
+     .img1{
+margin-right:5px;
+   width:150px;
+          height:120px;
+          float:right;
+          margin-top:-50px;border:1px solid black;}
+     .list{float:left;
+          width:50%;
+          margin-top:-70px;
+          margin-left:0px;font-size:25px;}
+     img{ width:60%;}
+.logo{width:75%;}
+
+
+.pag{margin:none;
+    clear:both;}
+
+
+
+
+ul.pagination {margin-left:0px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+ul.pagination li {display: inline;}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+ul.pagination li a.active {
+    background-color: pink;
+    color: white;
+}
+
+ul.pagination li a:hover:not(.active) {background-color: grey;}
+
+
+
+
+.footer
+ {height:200px;
+padding-top:30px;
+margin-top:50px;
+background-color:pink;
+text-align:center;
+    padding-bottom:200px;
+}
+span{color:white;
+font-family:Poppins;
+
+}
+
+.contact{color:black;}
+
+
+
+
+.cont{margin:auto;
+    
+    
+    
+}
+  
+  
+  
+  
+  .container2{clear:both;
+  font-family:poppins;
+  color:black; 
+  height:100%;
+      
+    margin-bottom:150px; 
+   
+     display: inline-block; 
+      
+  }
+  .img5{width:20%;
+  float:left;
+  margin-top:10px;
+ margin-left:0px;
+   
+      display: inline-block;
+      
+  }
+  
+  
+  
+    .listinmustread{width:70%;
+    float:right;
+    display:block;
+    
+    margin-top:-15%;
+       
+      
+        
+        
+    }
+    
+    .pink{color:pink;}
+    
+        
+  .footer{margin-left:-10px;
+height:200px;
+padding-top:100px;
+margin-top:50px;
+background-color:pink;
+text-align:center;
+    padding-bottom:200px;
+}
+span{color:white;
+font-family:Poppins;
+}
+.contact{color:black;}
+.cont{margin:auto;
+    
+  
+    
+
+    
+    
+    } 
+    
+    
+    
+    
+    
+    
       }
