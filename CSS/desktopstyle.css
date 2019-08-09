@@ -1,0 +1,41 @@
+@media only screen and (min-width: 768px){
+.container{clear:both;
+    width:100%;}
+    
+    .logo{width:20%;
+    margin-left:75px;}
+    
+    
+    
+    .mobile-only-header {
+        display: none;
+    }
+
+
+
+
+
+    .desktop-only-header {
+        float:right;
+        display: block;
+        margin-bottom:10px;
+        background-color:white;
+        color:black;
+        vertical-align: middle;
+        margin-right:75px;
+        margin-top:10px;
+    }
+
+    .desktop {
+        display: inline;
+        padding: 8px;
+    }
+    
+    
+    a:hover{color:pink;
+    text-decoration: none;}
+    
+    
+    
+    .material-icons{vertical-align: middle;}
+      }
