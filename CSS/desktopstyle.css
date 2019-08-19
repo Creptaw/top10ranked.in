@@ -1,6 +1,7 @@
 @media only screen and (min-width: 768px){
 .container{clear:both;
-    width:100%;}
+    width:100%;
+display:inline;}
     
     .logo{width:20%;
     margin-left:75px;}
