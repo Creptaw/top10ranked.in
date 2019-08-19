@@ -1,5 +1,7 @@
 @media only screen and (min-width: 768px){
-.container{clear:both;
+.container{
+margin-top:10px;
+clear:both;
     width:100%;
 display:inline;}
     
